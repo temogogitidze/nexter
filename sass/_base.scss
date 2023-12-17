@@ -29,7 +29,6 @@ html {
 
 body {
     font-family: $font-primary;
-    color: $color-grey-dark-2;
     font-weight: 300;
     line-height: 1.6;
 }
@@ -47,9 +46,4 @@ body {
         )
         [center-end]
         minmax(6rem, 1fr) [full-end];
-
-    & > * {
-        padding: 40px;
-        font-size: 3rem;
-    }
 }
